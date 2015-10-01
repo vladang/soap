@@ -1,0 +1,81 @@
+body {
+    font-family: arial, sans-serif;
+    font-size:12px;
+}
+
+h1 {
+	display:block;
+	font-size:23px;
+	color:#214287;
+}
+
+.container {
+	width:1024px;
+    padding:5px;
+    margin:auto;
+}
+
+.row {	width:250px;
+	height:60px;
+	float:left;
+    padding:5px;
+}
+
+label {
+	color:#214287;
+    display:block;
+    font-weight:bold;
+    padding:0 0 5px 0;
+    font-size:12px;
+}
+
+.row input[type='text'] {
+	padding:2px;
+	width:220px;
+	border:1px solid #3567CE;
+}
+
+.submit {
+	padding-top:23px;
+}
+
+#ajax {	padding-top:20px;
+}
+
+table {
+	margin-top:20px;
+	width:700px;
+	border-collapse:collapse;
+}
+
+th {
+	text-align:left;
+	background:#ccc;
+	padding:5px;
+	border:1px solid black;
+}
+
+td {
+	padding:5px;
+	border:1px solid black;
+}
+
+#stop_list {	display:none;
+}
+
+.info {
+	display:none;
+}
+
+.error_frm {	border:1px solid #F90000!important;
+	background:#FFE6E6;
+}
+
+.err {	color:#D50000;
+}
+
+.info {	margin-top:-20px;	line-height:22px;
+}
+
+.info span {	font-weight:bold;
+}
